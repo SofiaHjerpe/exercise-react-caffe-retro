@@ -1,0 +1,16 @@
+.red-box {
+  display: flex;
+  justify-content: center;
+  padding: 16px 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(139, 0, 0, 0.7);
+  margin-inline: 0 190px;
+}
+.box-text {
+  display: flex;
+  align-self: center;
+  font-family: "Poiret One", sans-serif;
+  font-size: 25px;
+  margin: 0;
+  color: rgba(224, 224, 220, 0.909);
+}

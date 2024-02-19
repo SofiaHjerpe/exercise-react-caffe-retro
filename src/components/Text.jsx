@@ -1,7 +1,8 @@
+import "./Text.css";
 function Text(props) {
   return (
-    <div class="box-red">
-      <p class="text">{props.text}</p>
+    <div className="red-box">
+      <p className="box-text">{props.text}</p>
     </div>
   );
 }
