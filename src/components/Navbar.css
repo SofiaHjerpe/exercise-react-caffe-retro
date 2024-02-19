@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #34242eaa;
+  height: 80px;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  gap: 90px;
+  align-items: center;
+}
+a {
+  font-family: "Spirax", sans-serif;
+  color: #fff;
+  font-size: 42px;
+  text-decoration: none;
+}
