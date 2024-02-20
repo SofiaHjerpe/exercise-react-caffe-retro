@@ -8,7 +8,7 @@ function Section(props) {
       <>
         <main id="hot" className="section-container">
           <h1 class="heading">Hot</h1>
-          <div className="text-container">
+          <section className="text-container">
             <Text
               margin="0 200px"
               text="Hot freshly ground black coffee or a cup of exquisite tea?"
@@ -24,7 +24,7 @@ function Section(props) {
               secondListItemThree="€ 3.50"
               secondListItemFour="€ 5.50"
             />
-          </div>
+          </section>
           <img className="image" src={props.image} alt={props.name} />
         </main>
       </>
@@ -35,7 +35,7 @@ function Section(props) {
       <>
         <main id="juicy" className="section-container">
           <h1 className="heading">Juicy</h1>
-          <div className="text-container">
+          <section className="text-container">
             <Text margin="0 200px" text="Ripe fruit - freshly squeezed" />
             <Text
               margin="200px 0"
@@ -51,7 +51,7 @@ function Section(props) {
               secondListItemThree="€ 6.50"
               secondListItemFour=""
             />
-          </div>
+          </section>
           <img className="image" src={props.image} alt={props.name} />
         </main>
       </>
@@ -62,7 +62,7 @@ function Section(props) {
       <>
         <main id="cosy" className="section-container">
           <h1 class="heading">Cosy</h1>
-          <div className="text-container">
+          <section className="text-container">
             <Text margin="0 200px" text="Hang around. Enjoy the settings." />
             <Text margin="200px 0" text="Use our fast WiFi. Borrow a newspaper or a novel." />
             <List
@@ -75,7 +75,7 @@ function Section(props) {
               secondListItemThree="caffe@lorem.pge"
               secondListItemFour=""
             />
-          </div>
+          </section>
           <img className="image" src={props.image} alt={props.name} />
         </main>
       </>

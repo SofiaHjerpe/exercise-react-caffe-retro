@@ -15,9 +15,11 @@
   font-size: 25px;
   color: rgba(224, 224, 220, 0.909);
 }
-.list > p {
+.list > li {
   display: flex;
   align-self: flex-start;
+  text-decoration: none;
+  list-style: none;
   margin: 0;
   margin-inline: 30px;
 }
