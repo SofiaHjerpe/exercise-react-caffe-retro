@@ -6,7 +6,7 @@ function Section(props) {
   if (props.section === "hot") {
     return (
       <>
-        <main id="hot"className="section-container">
+        <main id="hot" className="section-container">
           <h1 class="heading">Hot</h1>
           <div className="text-container">
             <Text
@@ -42,14 +42,14 @@ function Section(props) {
               text="It's as simple as that. Chunky and smooth - it's your choice."
             />
             <List
-              listItemOne="Mocha Latte"
-              listItemTwo="Caffe Formaggio"
-              listItemThree="Espresso"
-              listItemFour="Chai Verde Latte"
-              secondListItemOne="€ 7.50"
-              secondListItemTwo="€ 5.00"
-              secondListItemThree="€ 3.50"
-              secondListItemFour="€ 5.50"
+              listItemOne="Branched Apricots"
+              listItemTwo="Deep Rasberries"
+              listItemThree="Smooth Oranges"
+              listItemFour=""
+              secondListItemOne="€ 4.20"
+              secondListItemTwo="€ 3.50"
+              secondListItemThree="€ 6.50"
+              secondListItemFour=""
             />
           </div>
           <img className="image" src={props.image} alt={props.name} />
@@ -66,14 +66,14 @@ function Section(props) {
             <Text margin="0 200px" text="Hang around. Enjoy the settings." />
             <Text margin="200px 0" text="Use our fast WiFi. Borrow a newspaper or a novel." />
             <List
-              listItemOne="Mocha Latte"
-              listItemTwo="Caffe Formaggio"
-              listItemThree="Espresso"
-              listItemFour="Chai Verde Latte"
-              secondListItemOne="€ 7.50"
-              secondListItemTwo="€ 5.00"
-              secondListItemThree="€ 3.50"
-              secondListItemFour="€ 5.50"
+              listItemOne="Mon-Sun"
+              listItemTwo="Caffe Retro"
+              listItemThree="0123-45 67 89"
+              listItemFour=""
+              secondListItemOne="8am - 11pm"
+              secondListItemTwo="Canto VI"
+              secondListItemThree="caffe@lorem.pge"
+              secondListItemFour=""
             />
           </div>
           <img className="image" src={props.image} alt={props.name} />
