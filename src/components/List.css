@@ -1,0 +1,23 @@
+.thirdbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-inline: 100px 0;
+  width: 600px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poiret One", sans-serif;
+  font-size: 25px;
+  color: rgba(224, 224, 220, 0.909);
+}
+.list > p {
+  display: flex;
+  align-self: flex-start;
+  margin: 0;
+  margin-inline: 30px;
+}

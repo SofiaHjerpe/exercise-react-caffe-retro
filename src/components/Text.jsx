@@ -1,8 +1,10 @@
 import "./Text.css";
 function Text(props) {
   return (
-    <div className="red-box">
-      <p className="box-text">{props.text}</p>
+    <div className="red-box" style={{ marginInline: props.margin }}>
+      <p className="box-text">
+        {props.text}
+      </p>
     </div>
   );
 }
